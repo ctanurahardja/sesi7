@@ -1,6 +1,6 @@
-var count = 1;
-var clickcount = document.getElementById("clickcount");
-var btnAddClickCount = document.getElementById("btnAddClickCount");
+let count = 1;
+let clickcount = document.getElementById("clickcount");
+let btnAddClickCount = document.getElementById("btnAddClickCount");
 
 function addClickCount() {
     count++;
@@ -12,6 +12,6 @@ function minClickCount() {
     clickcount.innerHTML = count;
 }
 
-function changeBackgroundColor(colour){
+let changeBackgroundColor = (colour) => {
     btnAddClickCount.style.backgroundColor= colour;
 }
