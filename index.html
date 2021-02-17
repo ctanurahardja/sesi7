@@ -11,7 +11,11 @@
         
  <div id="clickcount"> 1</div>
 
- <button onclick="addClickCount()">Add Click count</button>
+ <button id="btnAddClickCount"
+  onclick="addClickCount()"
+  onmouseover="changeBackgroundColor('red')"
+  onmouseleave="changeBackgroundColor('white')">
+  Add Click count</button>
  <button onclick="minClickCount()">Min Click count</button>
 
  <script src=js/script.js></script>
